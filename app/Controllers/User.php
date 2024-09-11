@@ -12,4 +12,8 @@ class User extends BaseController
     {
         echo view('menu');
     }
+    public function about()
+    {
+        echo view('about');
+    }
 }
