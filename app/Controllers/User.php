@@ -6,6 +6,6 @@ class User extends BaseController
 {
     public function index()
     {
-        echo "this is user controller";
+        echo view('home');
     }
 }
