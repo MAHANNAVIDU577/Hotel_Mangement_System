@@ -11,3 +11,4 @@ $routes->get('/menu', 'User::menus');
 $routes->get('/about', 'User::about');
 $routes->get('/reservation', 'User::reservation');
 $routes->get('/contact', 'User::contact');
+$routes->get('/admin', 'Admin::index');
