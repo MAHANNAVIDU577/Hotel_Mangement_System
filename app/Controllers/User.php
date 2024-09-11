@@ -8,4 +8,8 @@ class User extends BaseController
     {
         echo view('home');
     }
+    public function menus()
+    {
+        echo view('menu');
+    }
 }

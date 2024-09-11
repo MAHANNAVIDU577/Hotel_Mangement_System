@@ -14,17 +14,17 @@
     <meta name="author" content="">
 
     <!-- Site Icons -->
-    <link rel="shortcut icon" href="<?php echo base_url('assets/images/favicon.ico') ?>" type="image/x-icon">
-    <link rel="apple-touch-icon" href="<?php echo base_url('assets/images/apple-touch-icon.png') ?>">
+    <link rel="shortcut icon" href="<?php echo base_url('assets/images/favicon.ico')?>" type="image/x-icon">
+    <link rel="apple-touch-icon" href="<?php echo base_url('assets/images/apple-touch-icon.png')?>">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="<?php echo base_url('assets/css/bootstrap.min.css') ?>">    
+    <link rel="stylesheet" href="<?php echo base_url('assets/css/bootstrap.min.css')?>">    
 	<!-- Site CSS -->
-    <link rel="stylesheet" href="<?php echo base_url('assets/css/style.css') ?>">    
+    <link rel="stylesheet" href="<?php echo base_url('assets/css/style.css')?>">    
     <!-- Responsive CSS -->
-    <link rel="stylesheet" href="<?php echo base_url('assets/css/responsive.css') ?>">
+    <link rel="stylesheet" href="<?php echo base_url('assets/css/responsive.css')?>">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="<?php echo base_url('assets/css/custom.css') ?>">
+    <link rel="stylesheet" href="<?php echo base_url('assets/css/custom.css')?>">
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -46,8 +46,8 @@
 				</button>
 				<div class="collapse navbar-collapse" id="navbars-rs-food">
 					<ul class="navbar-nav ml-auto">
-						<li class="nav-item active"><a class="nav-link" href="<?php echo base_url('user')?>">Home</a></li>
-						<li class="nav-item"><a class="nav-link" href="<?php echo base_url('menu')?>">Menu</a></li>
+						<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+						<li class="nav-item active"><a class="nav-link" href="menu.html">Menu</a></li>
 						<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Pages</a>
@@ -72,91 +72,17 @@
 	</header>
 	<!-- End header -->
 	
-	<!-- Start slides -->
-	<div id="slides" class="cover-slides">
-		<ul class="slides-container">
-			<li class="text-center">
-				<img src="<?php echo base_url('assets/images/slider-01.jpg')?>" alt="">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12">
-							<h1 class="m-b-20"><strong>Welcome To <br> Yamifood Restaurant</strong></h1>
-							<p class="m-b-40">See how your users experience your website in realtime or view  <br> 
-							trends to see any changes in performance over time.</p>
-							<p><a class="btn btn-lg btn-circle btn-outline-new-white" href="#">Reservation</a></p>
-						</div>
-					</div>
-				</div>
-			</li>
-			<li class="text-center">
-				<img src="<?php echo base_url('assets/images/slider-02.jpg')?>" alt="">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12">
-							<h1 class="m-b-20"><strong>Welcome To <br> Yamifood Restaurant</strong></h1>
-							<p class="m-b-40">See how your users experience your website in realtime or view  <br> 
-							trends to see any changes in performance over time.</p>
-							<p><a class="btn btn-lg btn-circle btn-outline-new-white" href="#">Reservation</a></p>
-						</div>
-					</div>
-				</div>
-			</li>
-			<li class="text-center">
-				<img src="<?php echo base_url('assets/images/slider-03.jpg')?>" alt="">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12">
-							<h1 class="m-b-20"><strong>Welcome To <br> Yamifood Restaurant</strong></h1>
-							<p class="m-b-40">See how your users experience your website in realtime or view  <br> 
-							trends to see any changes in performance over time.</p>
-							<p><a class="btn btn-lg btn-circle btn-outline-new-white" href="#">Reservation</a></p>
-						</div>
-					</div>
-				</div>
-			</li>
-		</ul>
-		<div class="slides-navigation">
-			<a href="#" class="next"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
-			<a href="#" class="prev"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
-		</div>
-	</div>
-	<!-- End slides -->
-	
-	<!-- Start About -->
-	<div class="about-section-box">
-		<div class="container">
+	<!-- Start All Pages -->
+	<div class="all-page-title page-breadcrumb">
+		<div class="container text-center">
 			<div class="row">
-				<div class="col-lg-6 col-md-6 col-sm-12">
-					<img src="<?php echo base_url('assets/images/about-img.jpg')?>" alt="" class="img-fluid">
-				</div>
-				<div class="col-lg-6 col-md-6 col-sm-12 text-center">
-					<div class="inner-column">
-						<h1>Welcome To <span>Yamifood Restaurant</span></h1>
-						<h4>Little Story</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque auctor suscipit feugiat. Ut at pellentesque ante, sed convallis arcu. Nullam facilisis, eros in eleifend luctus, odio ante sodales augue, eget lacinia lectus erat et sem. </p>
-						<p>Sed semper orci sit amet porta placerat. Etiam quis finibus eros. Sed aliquam metus lorem, a pellentesque tellus pretium a. Nulla placerat elit in justo vestibulum, et maximus sem pulvinar.</p>
-						<a class="btn btn-lg btn-circle btn-outline-new-white" href="#">Reservation</a>
-					</div>
+				<div class="col-lg-12">
+					<h1>Special Menu</h1>
 				</div>
 			</div>
 		</div>
 	</div>
-	<!-- End About -->
-	
-	<!-- Start QT -->
-	<div class="qt-box qt-background">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 ml-auto mr-auto text-left">
-					<p class="lead ">
-						" If you're not the one cooking, stay out of the way and compliment the chef. "
-					</p>
-					<span class="lead">Michael Strahan</span>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- End QT -->
+	<!-- End All Pages -->
 	
 	<!-- Start Menu -->
 	<div class="menu-box">
@@ -287,54 +213,20 @@
 	</div>
 	<!-- End Menu -->
 	
-	<!-- Start Gallery -->
-	<div class="gallery-box">
-		<div class="container-fluid">
+	<!-- Start QT -->
+	<div class="qt-box qt-background">
+		<div class="container">
 			<div class="row">
-				<div class="col-lg-12">
-					<div class="heading-title text-center">
-						<h2>Gallery</h2>
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
-					</div>
-				</div>
-			</div>
-			<div class="tz-gallery">
-				<div class="row">
-					<div class="col-sm-12 col-md-4 col-lg-4">
-						<a class="lightbox" href="<?php echo base_url('assets/images/gallery-img-01.jpg')?>">
-							<img class="img-fluid" src="<?php echo base_url('assets/images/gallery-img-01.jpg')?>" alt="Gallery Images">
-						</a>
-					</div>
-					<div class="col-sm-6 col-md-4 col-lg-4">
-						<a class="lightbox" href="<?php echo base_url('assets/images/gallery-img-02.jpg')?>">
-							<img class="img-fluid" src="<?php echo base_url('assets/images/gallery-img-02.jpg')?>" alt="Gallery Images">
-						</a>
-					</div>
-					<div class="col-sm-6 col-md-4 col-lg-4">
-						<a class="lightbox" href="<?php echo base_url('assets/images/gallery-img-03.jpg')?>">
-							<img class="img-fluid" src="<?php echo base_url('assets/images/gallery-img-03.jpg')?>" alt="Gallery Images">
-						</a>
-					</div>
-					<div class="col-sm-12 col-md-4 col-lg-4">
-						<a class="lightbox" href="<?php echo base_url('assets/images/gallery-img-04.jpg')?>">
-							<img class="img-fluid" src="<?php echo base_url('assets/images/gallery-img-04.jpg')?>" alt="Gallery Images">
-						</a>
-					</div>
-					<div class="col-sm-6 col-md-4 col-lg-4">
-						<a class="lightbox" href="<?php echo base_url('assets/images/gallery-img-05.jpg')?>">
-							<img class="img-fluid" src="<?php echo base_url('assets/images/gallery-img-05.jpg')?>" alt="Gallery Images">
-						</a>
-					</div> 
-					<div class="col-sm-6 col-md-4 col-lg-4">
-						<a class="lightbox" href="<?php echo base_url('assets/images/gallery-img-06.jpg')?>">
-							<img class="img-fluid" src="<?php echo base_url('assets/images/gallery-img-06.jpg')?>" alt="Gallery Images">
-						</a>
-					</div>
+				<div class="col-md-8 ml-auto mr-auto text-left">
+					<p class="lead ">
+						" If you're not the one cooking, stay out of the way and compliment the chef. "
+					</p>
+					<span class="lead">Michael Strahan</span>
 				</div>
 			</div>
 		</div>
 	</div>
-	<!-- End Gallery -->
+	<!-- End QT -->
 	
 	<!-- Start Customer Reviews -->
 	<div class="customer-reviews-box">
@@ -485,16 +377,16 @@
 	<a href="#" id="back-to-top" title="Back to top" style="display: none;">&uarr;</a>
 
 	<!-- ALL JS FILES -->
-	<script src="<?php echo base_url('assets/js/jquery-3.2.1.min.js')?>"></script>
-	<script src="<?php echo base_url('assets/js/popper.min.js')?>"></script>
-	<script src="<?php echo base_url('assets/js/bootstrap.min.js')?>"></script>
+	<script src="<?php echo base_url('assets/js/jquery-3.2.1.min.js') ?>"></script>
+	<script src="<?php echo base_url('assets/js/popper.min.js') ?>"></script>
+	<script src="<?php echo base_url('assets/js/bootstrap.min.js') ?>"></script>
     <!-- ALL PLUGINS -->
-	<script src="<?php echo base_url('assets/js/jquery.superslides.min.js')?>"></script>
-	<script src="<?php echo base_url('assets/js/images-loded.min.js')?>"></script>
-	<script src="<?php echo base_url('assets/js/isotope.min.js')?>"></script>
-	<script src="<?php echo base_url('assets/js/baguetteBox.min.js')?>"></script>
-	<script src="<?php echo base_url('assets/js/form-validator.min.js')?>"></script>
-    <script src="<?php echo base_url('assets/js/contact-form-script.js')?>"></script>
-    <script src="<?php echo base_url('assets/js/custom.js')?>"></script>
+	<script src="<?php echo base_url('assets/js/jquery.superslides.min.js') ?>"></script>
+	<script src="<?php echo base_url('assets/js/images-loded.min.js') ?>"></script>
+	<script src="<?php echo base_url('assets/js/isotope.min.js') ?>"></script>
+	<script src="<?php echo base_url('assets/js/baguetteBox.min.js') ?>"></script>
+	<script src="<?php echo base_url('assets/js/form-validator.min.js') ?>"></script>
+    <script src="<?php echo base_url('assets/js/contact-form-script.js') ?>"></script>
+    <script src="<?php echo base_url('assets/js/custom.js') ?>"></script>
 </body>
 </html>
