@@ -16,4 +16,8 @@ class User extends BaseController
     {
         echo view('about');
     }
+    public function reservation()
+    {
+        echo view('reservation');
+    }
 }

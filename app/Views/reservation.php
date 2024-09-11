@@ -14,21 +14,21 @@
     <meta name="author" content="">
 
     <!-- Site Icons -->
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="shortcut icon" href="<?php echo base_url('assets/images/favicon.ico" type="image/x-icon')?>">
+    <link rel="apple-touch-icon" href="<?php echo base_url('assets/images/apple-touch-icon.png')?>">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">    
+    <link rel="stylesheet" href="<?php echo base_url('assets/css/bootstrap.min.css')?>">    
 	<!-- Site CSS -->
-    <link rel="stylesheet" href="css/style.css">    
+    <link rel="stylesheet" href="<?php echo base_url('assets/css/style.css')?>">    
 	<!-- Pickadate CSS -->
-    <link rel="stylesheet" href="css/classic.css">    
-	<link rel="stylesheet" href="css/classic.date.css">    
-	<link rel="stylesheet" href="css/classic.time.css">    
+    <link rel="stylesheet" href="<?php echo base_url('assets/css/classic.css')?>">    
+	<link rel="stylesheet" href="<?php echo base_url('assets/css/classic.date.css')?>">    
+	<link rel="stylesheet" href="<?php echo base_url('assets/css/classic.time.css')?>">    
     <!-- Responsive CSS -->
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="<?php echo base_url('assets/css/responsive.css')?>">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="<?php echo base_url('assets/css/custom.css')?>">
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -43,20 +43,20 @@
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
 			<div class="container">
 				<a class="navbar-brand" href="index.html">
-					<img src="images/logo.png" alt="" />
+					<img src="<?php echo base_url('assets/images/logo.png')?>" alt="" />
 				</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-rs-food" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
 				  <span class="navbar-toggler-icon"></span>
 				</button>
 				<div class="collapse navbar-collapse" id="navbars-rs-food">
 					<ul class="navbar-nav ml-auto">
-						<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-						<li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
-						<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+						<li class="nav-item"><a class="nav-link" href="<?php echo base_url('user')?>">Home</a></li>
+						<li class="nav-item"><a class="nav-link" href="<?php echo base_url('menu')?>">Menu</a></li>
+						<li class="nav-item"><a class="nav-link" href="<?php echo base_url('about')?>">About</a></li>
 						<li class="nav-item active dropdown">
 							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Pages</a>
 							<div class="dropdown-menu" aria-labelledby="dropdown-a">
-								<a class="dropdown-item" href="reservation.html">Reservation</a>
+								<a class="dropdown-item" href="<?php echo base_url('reservation')?>">Reservation</a>
 								<a class="dropdown-item" href="stuff.html">Stuff</a>
 								<a class="dropdown-item" href="gallery.html">Gallery</a>
 							</div>
@@ -188,7 +188,7 @@
 						<div class="carousel-inner mt-4">
 							<div class="carousel-item text-center active">
 								<div class="img-box p-1 border rounded-circle m-auto">
-									<img class="d-block w-100 rounded-circle" src="images/profile-1.jpg" alt="">
+									<img class="d-block w-100 rounded-circle" src="<?php echo base_url('assets/images/profile-1.jpg')?>" alt="">
 								</div>
 								<h5 class="mt-4 mb-0"><strong class="text-warning text-uppercase">Paul Mitchel</strong></h5>
 								<h6 class="text-dark m-0">Web Developer</h6>
@@ -196,7 +196,7 @@
 							</div>
 							<div class="carousel-item text-center">
 								<div class="img-box p-1 border rounded-circle m-auto">
-									<img class="d-block w-100 rounded-circle" src="images/profile-3.jpg" alt="">
+									<img class="d-block w-100 rounded-circle" src="<?php echo base_url('assets/images/profile-3.jpg')?>" alt="">
 								</div>
 								<h5 class="mt-4 mb-0"><strong class="text-warning text-uppercase">Steve Fonsi</strong></h5>
 								<h6 class="text-dark m-0">Web Designer</h6>
@@ -204,7 +204,7 @@
 							</div>
 							<div class="carousel-item text-center">
 								<div class="img-box p-1 border rounded-circle m-auto">
-									<img class="d-block w-100 rounded-circle" src="images/profile-7.jpg" alt="">
+									<img class="d-block w-100 rounded-circle" src="<?php echo base_url('assets/images/profile-7.jpg')?>" alt="">
 								</div>
 								<h5 class="mt-4 mb-0"><strong class="text-warning text-uppercase">Daniel vebar</strong></h5>
 								<h6 class="text-dark m-0">Seo Analyst</h6>
@@ -320,20 +320,20 @@
 	<a href="#" id="back-to-top" title="Back to top" style="display: none;">&uarr;</a>
 
 	<!-- ALL JS FILES -->
-	<script src="js/jquery-3.2.1.min.js"></script>
-	<script src="js/popper.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
+	<script src="<?php echo base_url('assets/js/jquery-3.2.1.min.js')?>"></script>
+	<script src="<?php echo base_url('assets/js/popper.min.js')?>"></script>
+	<script src="<?php echo base_url('assets/js/bootstrap.min.js')?>"></script>
     <!-- ALL PLUGINS -->
-	<script src="js/jquery.superslides.min.js"></script>
-	<script src="js/images-loded.min.js"></script>
-	<script src="js/isotope.min.js"></script>
-	<script src="js/baguetteBox.min.js"></script>
-	<script src="js/picker.js"></script>
-	<script src="js/picker.date.js"></script>
-	<script src="js/picker.time.js"></script>
-	<script src="js/legacy.js"></script>
-	<script src="js/form-validator.min.js"></script>
-    <script src="js/contact-form-script.js"></script>
-    <script src="js/custom.js"></script>
+	<script src="<?php echo base_url('assets/js/jquery.superslides.min.js')?>"></script>
+	<script src="<?php echo base_url('assets/js/images-loded.min.js')?>"></script>
+	<script src="<?php echo base_url('assets/js/isotope.min.js')?>"></script>
+	<script src="<?php echo base_url('assets/js/baguetteBox.min.js')?>"></script>
+	<script src="<?php echo base_url('assets/js/picker.js')?>"></script>
+	<script src="<?php echo base_url('assets/js/picker.date.js')?>"></script>
+	<script src="<?php echo base_url('assets/js/picker.time.js')?>"></script>
+	<script src="<?php echo base_url('assets/js/legacy.js')?>"></script>
+	<script src="<?php echo base_url('assets/js/form-validator.min.js')?>"></script>
+    <script src="<?php echo base_url('assets/js/contact-form-script.js')?>"></script>
+    <script src="<?php echo base_url('assets/js/custom.js')?>"></script>
 </body>
 </html>

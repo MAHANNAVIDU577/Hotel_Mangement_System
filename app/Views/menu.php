@@ -52,7 +52,7 @@
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Pages</a>
 							<div class="dropdown-menu" aria-labelledby="dropdown-a">
-								<a class="dropdown-item" href="reservation.html">Reservation</a>
+								<a class="dropdown-item" href="<?php echo base_url('reservation')?>">Reservation</a>
 								<a class="dropdown-item" href="stuff.html">Stuff</a>
 								<a class="dropdown-item" href="gallery.html">Gallery</a>
 							</div>

@@ -52,7 +52,7 @@
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Pages</a>
 							<div class="dropdown-menu" aria-labelledby="dropdown-a">
-								<a class="dropdown-item" href="reservation.html">Reservation</a>
+								<a class="dropdown-item" href="<?php echo base_url('reservation')?>">Reservation</a>
 								<a class="dropdown-item" href="stuff.html">Stuff</a>
 								<a class="dropdown-item" href="gallery.html">Gallery</a>
 							</div>
@@ -83,7 +83,7 @@
 							<h1 class="m-b-20"><strong>Welcome To <br> Yamifood Restaurant</strong></h1>
 							<p class="m-b-40">See how your users experience your website in realtime or view  <br> 
 							trends to see any changes in performance over time.</p>
-							<p><a class="btn btn-lg btn-circle btn-outline-new-white" href="#">Reservation</a></p>
+							<p><a class="btn btn-lg btn-circle btn-outline-new-white" href="<?php echo base_url('reservation')?>">Reservation</a></p>
 						</div>
 					</div>
 				</div>
@@ -109,7 +109,7 @@
 							<h1 class="m-b-20"><strong>Welcome To <br> Yamifood Restaurant</strong></h1>
 							<p class="m-b-40">See how your users experience your website in realtime or view  <br> 
 							trends to see any changes in performance over time.</p>
-							<p><a class="btn btn-lg btn-circle btn-outline-new-white" href="#">Reservation</a></p>
+							<p><a class="btn btn-lg btn-circle btn-outline-new-white" href="<?php echo base_url('reservation')?>">Reservation</a></p>
 						</div>
 					</div>
 				</div>
@@ -135,7 +135,7 @@
 						<h4>Little Story</h4>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque auctor suscipit feugiat. Ut at pellentesque ante, sed convallis arcu. Nullam facilisis, eros in eleifend luctus, odio ante sodales augue, eget lacinia lectus erat et sem. </p>
 						<p>Sed semper orci sit amet porta placerat. Etiam quis finibus eros. Sed aliquam metus lorem, a pellentesque tellus pretium a. Nulla placerat elit in justo vestibulum, et maximus sem pulvinar.</p>
-						<a class="btn btn-lg btn-circle btn-outline-new-white" href="#">Reservation</a>
+						<a class="btn btn-lg btn-circle btn-outline-new-white" href="<?php echo base_url('reservation')?>">Reservation</a>
 					</div>
 				</div>
 			</div>
