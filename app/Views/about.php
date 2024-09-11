@@ -64,7 +64,7 @@
 								<a class="dropdown-item" href="blog-details.html">blog Single</a>
 							</div>
 						</li>
-						<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+						<li class="nav-item"><a class="nav-link" href="<?php echo base_url('contact')?>">Contact</a></li>
 					</ul>
 				</div>
 			</div>
