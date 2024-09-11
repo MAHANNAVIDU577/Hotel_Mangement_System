@@ -76,7 +76,7 @@
 	<div id="slides" class="cover-slides">
 		<ul class="slides-container">
 			<li class="text-center">
-				<img src="assets/images/slider-01.jpg" alt="">
+				<img src="<?php echo base_url('assets/images/slider-01.jpg')?>" alt="">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
